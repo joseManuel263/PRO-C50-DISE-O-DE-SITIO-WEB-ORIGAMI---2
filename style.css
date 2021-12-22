@@ -1,0 +1,63 @@
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.3em;
+}
+
+.header1{
+    background-color: black;
+    font-size: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.header2{
+    background-color: black;
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    position: relative;
+    background-color: white;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
